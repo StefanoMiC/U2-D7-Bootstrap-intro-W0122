@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .title-1 {
+            background-color: red;
+        }
+
+        .title-2 {
+            font-size: 2rem;
+        }
+
+        /* .text-left {
+            text-align: left;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .mt-2 {
+            margin-top: 0.5rem
+        }
+
+        .mt-5 {
+            margin-top: 3rem
+        } */
+
+
+        /* 0 --------- 575px */
+        /* @media (max-width: 575px) {
+            .aligned-center-xs {
+                text-align: center;
+            }
+        } */
+
+        /* 576px -------------- 991px */
+        /* @media (min-width: 576px) and (max-width: 991px) {
+            .aligned-right-md {
+                text-align: right
+            }
+        } */
+
+
+        /* 992 to infinite */
+        /* @media (min-width: 992px) {
+            .aligned-center-lg {
+                text-align: center
+            }
+        } */
+
+        /* @media (min-width: 576px) {
+            .text-sm-center {
+                text-align: center;
+            }
+
+            .mt-sm-0 {
+                margin-top: 0;
+            }
+
+            .mt-sm-4 {
+                margin-top: 1.5rem;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .text-lg-left {
+                text-align: left;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- <h2 class="title-1 text-right text-lg-left">title 1</h2> -->
+    <!--<h2 class="title-2 text-right text-sm-center mt-sm-4">title 2</h2> -->
+    <div class="container mt-5">
+
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 mb-3">
+                <div style="background-color: yellowgreen;">1</div>
+            </div>
+            <div class="col-12 col-sm-7 col-md-6 col-lg-4 col-xl-3 mb-3">
+                <div style="background-color: aquamarine;">1</div>
+            </div>
+            <div class="col-12 col-sm-5 col-md-3 col-lg-4 col-xl-3 mb-3">
+                <div style="background-color: coral;">2</div>
+            </div>
+            <!-- <div class="col-3 mb-3">
+                <div style="background-color: yellowgreen;">1</div>
+            </div>
+            <div class="col-3 mb-3">
+                <div style="background-color: aquamarine;">1</div>
+            </div>
+            <div class="col-3 mb-3">
+                <div style="background-color: coral;">2</div>
+            </div> -->
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-5 mb-lg-0">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1651497111372-9107c1a5d9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-5 mb-lg-0">
+                <div class="card border-danger">
+                    <img src="https://images.unsplash.com/photo-1651497111372-9107c1a5d9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary shadow">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-5 mb-lg-0">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1651497111372-9107c1a5d9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4 mb-sm-5 mb-lg-0">
+                <div class="card shadow-lg">
+                    <img src="https://images.unsplash.com/photo-1651497111372-9107c1a5d9a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+            <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+             <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+            <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+            <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+            <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div>
+            <div class="col-2">
+                <div style="background-color: red;">2</div>
+            </div> -->
+        </div>
+    </div>
+    <h2 class="title-2 text-right text-sm-center">title 2</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
